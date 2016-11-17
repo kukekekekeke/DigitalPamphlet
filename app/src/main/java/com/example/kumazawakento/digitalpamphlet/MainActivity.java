@@ -2,6 +2,8 @@ package com.example.kumazawakento.digitalpamphlet;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -48,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
 
 
             tabHost.setCurrentTab(0);
+
+
         } catch (IllegalArgumentException e) {
             e.printStackTrace();
         } catch (RuntimeException e) {
