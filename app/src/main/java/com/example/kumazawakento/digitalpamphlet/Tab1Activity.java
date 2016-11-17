@@ -11,7 +11,7 @@ public class Tab1Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab1);
         TextView view = new TextView(this);
-        view.setText("TestGainingsTest");
+        view.setText("yeah test");
         setContentView(view);
     }
 }
