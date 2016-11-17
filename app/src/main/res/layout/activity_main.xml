@@ -23,6 +23,14 @@
         android:layout_below="@+id/tabHost"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+
+    <com.viewpagerindicator.TitlePageIndicator
+        android:id="@+id/indicator"
+        android:padding="10dip"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
     <TabHost
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
