@@ -11,7 +11,7 @@
     tools:context="com.example.kumazawakento.digitalpamphlet.Tab1Activity">
 
     <TextView
-        android:text="Tab1Test"
+        android:text="TestGainingsTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
