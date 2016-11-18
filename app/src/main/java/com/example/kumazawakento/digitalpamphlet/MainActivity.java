@@ -11,8 +11,6 @@ import com.viewpagerindicator.TitlePageIndicator;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     private MainFragmentPagerAdapter mAdapter;
     private ViewPager mPager;
     private TitlePageIndicator mIndicator;
