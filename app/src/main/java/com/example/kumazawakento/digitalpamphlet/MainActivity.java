@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         indicator.setTextColor(0xAA000000);
         indicator.setSelectedColor(0xFF000000);
         indicator.setSelectedBold(true);
+
     }
 
     protected void initTabs() {

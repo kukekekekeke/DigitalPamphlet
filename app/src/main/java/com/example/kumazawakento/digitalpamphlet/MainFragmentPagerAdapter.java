@@ -14,10 +14,13 @@ public class MainFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
+                System.out.println("page0");
                 return MainFragment.newInstance(android.R.color.holo_blue_bright);
             case 1:
+                System.out.println("page1");
                 return MainFragment.newInstance(android.R.color.holo_green_light);
             case 2:
+                System.out.println("page2");
                 return MainFragment.newInstance(android.R.color.holo_red_dark);
         }
         return null;
