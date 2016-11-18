@@ -27,3 +27,16 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
 }
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+    }
+
+}
+repositories {
+    maven { url 'http://repo1.maven.org/maven2' }
+}
